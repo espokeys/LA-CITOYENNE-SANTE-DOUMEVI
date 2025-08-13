@@ -8,19 +8,19 @@
     <meta name="description" content="">
     <meta name="author" content="TemplateMo">
     <!--<< Favcion >>-->
-    <link rel="shortcut icon" href="{{ secure_asset('assets/images/logo2.png') }}" />
+    <link rel="shortcut icon" href="{{ asset('assets/images/logo2.png') }}" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
         rel="stylesheet">
 
     <title>Doumevi</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{ secure_asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="{{ secure_asset('assets/css/fontawesome.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('assets/css/templatemo-finance-business.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('assets/css/owl.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/templatemo-finance-business.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.css') }}">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -141,14 +141,14 @@ https://templatemo.com/tm-545-finance-business
     </div>
  -->
     <!-- Bootstrap core JavaScript -->
-    <script src="{{ secure_asset('vendor/jquery/jquery.min.js') }}"></script>
-    <script src="{{ secure_asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
     <!-- Additional Scripts -->
-    <script src="{{ secure_asset('assets/js/custom.js') }}"></script>
-    <script src="{{ secure_asset('assets/js/owl.js') }}"></script>
-    <script src="{{ secure_asset('assets/js/slick.js') }}"></script>
-    <script src="{{ secure_asset('assets/js/accordions.js') }}"></script>
+    <script src="{{ asset('assets/js/custom.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.js') }}"></script>
+    <script src="{{ asset('assets/js/slick.js') }}"></script>
+    <script src="{{ asset('assets/js/accordions.js') }}"></script>
 
     <script language="text/Javascript">
         cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
